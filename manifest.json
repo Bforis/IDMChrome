@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "IDMChrome",
+    "short_name": "IDMC",
+    "description": "Simple Internet Download Manager Extension", 
+    "version": "1.0",
+    "background":{
+        "service_worker":"/background.js"
+    },
+    "permissions": ["downloads", "storage", "action", "tabs", "activeTab"],
+    "action": {  
+     "default_popup": "/popup.html"
+    }
+}
