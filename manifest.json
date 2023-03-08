@@ -7,7 +7,7 @@
     "background":{
         "service_worker":"/background.js"
     },
-    "permissions": ["downloads", "storage", "action", "tabs", "activeTab"],
+    "permissions": ["downloads", "storage", "activeTab"],
     "action": {  
      "default_popup": "/popup.html"
     }
